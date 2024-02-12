@@ -1,0 +1,43 @@
+/* IndianMangoes.css */
+
+.indianMangoes {
+  text-align: center;
+  padding: 2rem; /* Adjusted padding for mobile */
+}
+
+.indianMangoes__sliderItem {
+  position: relative;
+}
+
+.indianMangoes__video {
+  width: 100%;
+}
+
+.indianMangoes__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.indianMangoes__contentWrapper {
+  display: flex;
+  flex-direction: column; /* Adjusted to stack items for mobile */
+  align-items: center;
+}
+
+.indianMangoes__videoContainer,
+.indianMangoes__textContent {
+  width: 100%; /* Adjusted width for mobile */
+  margin: 1rem 0; /* Adjusted margin for mobile */
+}
+
+.indianMangoes__videoContainer {
+  margin-bottom: 1rem; /* Adjusted margin for mobile */
+}
+
+.indianMangoes__textContent {
+  text-align: center; /* Adjusted text-align for mobile */
+}

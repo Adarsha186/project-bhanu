@@ -1,0 +1,22 @@
+.header-link {
+  padding: 0 10px; /* Add spacing between elements */
+}
+
+.header-link .nav-link {
+  font-weight: bold; /* Make links bold */
+  color: black; /* Make links black */
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ 
+
+@media (min-width: 992px) { /* Bootstrap's large breakpoint */
+  .header-link {
+    padding: 0 20px; /* Add more spacing for larger screens */
+  }
+}

@@ -1,0 +1,26 @@
+/* Apply background image to the whole page */
+.wholesale-form-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('../images/wholesale.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wholesale-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-container {
+  max-width: 40rem; 
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+ .form-group{
+  padding: 0.4rem;
+ }

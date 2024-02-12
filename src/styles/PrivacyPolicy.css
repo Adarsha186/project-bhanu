@@ -1,0 +1,38 @@
+/* PrivacyPolicy.css */
+
+.privacy-policy {
+  max-width: 90vw; /* Adjusted max-width for better responsiveness */
+  margin: 0 auto;
+  padding: 2rem; /* Adjusted padding for better spacing */
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+.privacy-policy h2 {
+  color: #333; /* Adjust color to match your design */
+}
+
+.privacy-policy h3 {
+  color: #555; /* Adjust color to match your design */
+}
+
+.privacy-policy p {
+  font-size: 1rem; /* Adjusted font size for better readability */
+  line-height: 1.5;
+  color: #666; /* Adjust color to match your design */
+}
+
+.privacy-policy table {
+  width: 100%;
+  margin-top: 1.5rem; /* Adjusted margin for better spacing */
+  border-collapse: collapse;
+}
+
+.privacy-policy th, .privacy-policy td {
+  border: 1px solid #ddd; /* Adjust color to match your design */
+  padding: 1rem; /* Adjusted padding for better spacing */
+  text-align: left;
+}
+
+.privacy-policy th {
+  background-color: #f2f2f2; /* Adjust color to match your design */
+}

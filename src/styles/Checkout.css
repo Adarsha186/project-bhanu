@@ -1,0 +1,45 @@
+/* Checkout.css */
+
+.checkout {
+  display: flex;
+  padding: 1.25rem; /* 20px converted to rem */
+  background-color: white;
+  height: max-content;
+}
+
+.checkout__left {
+  width: 70%;
+  padding: 1.25rem; /* 20px converted to rem */
+}
+
+.checkout__ad {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 0.625rem; /* 10px converted to rem */
+}
+
+.checkout__title {
+  margin-top: 0.625rem; /* 10px converted to rem */
+  margin-bottom: 1.25rem; /* 20px converted to rem */
+}
+
+.checkout__right {
+  width: 30%;
+}
+
+.checkout__button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 0.9375rem; /* 15px converted to rem */
+  text-transform: uppercase;
+  letter-spacing: 0.125em; /* 2px converted to em */
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checkout__button:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
